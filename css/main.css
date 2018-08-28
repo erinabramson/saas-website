@@ -11,9 +11,27 @@ h1, h2, .logo {
   font-family: 'Shadows Into Light Two', cursive;
 }
 
-.nav li {
-  display:inline-block;
-  float: right;
+nav li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav li a:hover {
+  color: #fff;
+  background-color: #fedcd2;
+}
+
+@media only screen and (min-width: 38em) {
+
+  h1 {
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  nav {
+    text-align: right;
+  }
+
 }
 
 header {
@@ -52,6 +70,7 @@ header {
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
+  border: 2px;
 }
 
 .hero-text-shadow {
