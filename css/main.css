@@ -2,8 +2,18 @@ html {
   font-family: 'Raleway', sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 h1, h2, .logo {
   font-family: 'Shadows Into Light Two', cursive;
+}
+
+.nav li {
+  display:inline-block;
+  float: right;
 }
 
 header {
@@ -55,13 +65,18 @@ h3 {
 .box {
   max-width: 1500px;
   margin-left: auto;
-margin-right: auto;
+  margin-right: auto;
 }
 
 hr {
    border: 0;
    height: 1px;
    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+footer {
+  color: #fff;
+  background-color: #bfd8d2;
 }
 
 /* @media only screen and (min-width: 60em) {
