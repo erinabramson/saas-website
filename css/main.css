@@ -1,0 +1,25 @@
+html {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, .logo {
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+.hero {
+  position: relative;
+  background: url(images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 65vh;
+  background-position: center;
+}
+
+
+
+@media only screen and (min-width: 60em) {
+
+position: relative;
+  }
+
+}
