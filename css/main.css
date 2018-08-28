@@ -17,7 +17,7 @@ h1, h2, .logo {
 }
 
 header {
-  background-color: #bfd8d2;
+  background-color: rgba(191, 216, 210, 0.5);
 }
 
 .btn {
@@ -42,20 +42,20 @@ header {
   background: url("https://i.imgur.com/HJ4p5qE.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 80vh;
+  height: 85vh;
   background-position: center;
   color: #fff;
 }
 
 .hero-text {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .hero-text-shadow {
-  text-shadow: 1px 1px 4px #000000;
+  text-shadow: 1px 1px 2px #000000;
 }
 
 h3 {
