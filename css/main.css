@@ -2,8 +2,29 @@ html {
   font-family: 'Raleway', sans-serif;
 }
 
-h1, h2, h3, .logo {
+h1, h2, .logo {
   font-family: 'Shadows Into Light Two', cursive;
+}
+
+header {
+  background-color: #bfd8d2;
+}
+
+.btn {
+  background-color: #dcb239;
+  border: 0;
+}
+
+.btn:hover {
+  background-color: #df744a;
+}
+
+.btn-alt {
+  background-color: #df744a;
+}
+
+.btn-alt:hover {
+  background-color: #dcb239;
 }
 
 .hero {
@@ -13,13 +34,39 @@ h1, h2, h3, .logo {
   background-size: cover;
   height: 80vh;
   background-position: center;
+  color: #fff;
 }
 
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-text-shadow {
+  text-shadow: 1px 1px 4px #000000;
+}
+
+h3 {
+  color: #df744a;
+}
+
+.box {
+  max-width: 1500px;
+  margin-left: auto;
+margin-right: auto;
+}
+
+hr {
+   border: 0;
+   height: 1px;
+   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+/* @media only screen and (min-width: 60em) {
 
 
-@media only screen and (min-width: 60em) {
-
-position: relative;
   }
 
-}
+}*/
