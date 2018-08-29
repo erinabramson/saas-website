@@ -102,6 +102,10 @@ footer {
   background-color: #bfd8d2;
 }
 
+fieldset {
+  border: 0;
+}
+
 @media only screen and (min-width: 25em) {
 
   .nav-trial {
