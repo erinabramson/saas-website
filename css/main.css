@@ -1,5 +1,7 @@
 html {
   font-family: "Raleway", sans-serif;
+  position:relative;
+  min-height: 100%;
 }
 
 a {
@@ -100,10 +102,24 @@ hr {
 footer {
   color: #fff;
   background-color: #bfd8d2;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height:100px;
+}
+
+.pageContentWrapper {
+  padding-bottom:100px;
 }
 
 fieldset {
   border: 0;
+}
+
+input {
+  border-color: #808080;
+  border-radius: 5px;
 }
 
 @media only screen and (min-width: 25em) {
