@@ -9,11 +9,6 @@ a {
   color: #fff;
 }
 
-.skip-links a {
-  color: #000;
-  background-color: #fff;
-}
-
 h1, h2, .logo {
   font-family: "Shadows Into Light Two", cursive;
 }
@@ -36,11 +31,11 @@ nav li a:hover {
 }
 
 .topbar {
-  background-color: rgba(191, 216, 210, 1);
+  background-color: rgba(130, 191, 177, 1);
 }
 
 .topbar-home {
-  background-color: rgba(191, 216, 210, .5);
+  background-color: rgba(130, 191, 177, .3);
 }
 
 .btn {
@@ -101,7 +96,7 @@ hr {
 
 footer {
   color: #fff;
-  background-color: #bfd8d2;
+  background-color: #82bfb1;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -120,6 +115,15 @@ fieldset {
 input {
   border-color: #808080;
   border-radius: 5px;
+}
+
+.skip-links {
+    position: absolute;
+}
+
+.skip-links a {
+  color: #000;
+  background-color: #fff;
 }
 
 @media only screen and (min-width: 25em) {
