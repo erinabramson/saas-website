@@ -194,4 +194,8 @@ input {
     background-color: #e9a084;
   }
 
+  .tour-text {
+    text-align: center;
+  }
+
 }
