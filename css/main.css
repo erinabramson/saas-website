@@ -27,7 +27,6 @@ nav li a:hover {
 }
 
 .current-page {
-
   font-weight: bold;
 }
 
@@ -138,6 +137,26 @@ input {
   color: #fff;
 }
 
+.no-border {
+  border: none;
+}
+
+td, th {
+  border-color: #c0c0c0;
+}
+
+.table-header {
+  background-color: #d3d3d3;
+}
+
+.table-checkmark {
+  color: green;
+}
+
+.x-mark {
+  color: red;
+}
+
 .skip-links {
   position: absolute;
 }
@@ -150,17 +169,19 @@ input {
 @media only screen and (min-width: 25em) {
 
   .nav-trial {
-    border: 4px solid rgba(223, 116, 74, .7);
+    color: #fff;
+    background-color: rgba(223, 116, 74, 1);
     padding: 8px;
     border-radius: 10px;
   }
 
   .nav-trial:hover {
+    border-color: #fff;
     color: #fff;
-    background-color: rgba(223, 116, 74, 1);
+    background-color: rgba(223, 116, 74, .6);
   }
 
-  .nav-trial-current {
+  .nav-trial-current:hover {
     background-color: rgba(223, 116, 74, 1);
   }
 
@@ -196,6 +217,10 @@ input {
 
   .tour-text {
     text-align: center;
+  }
+
+  .table-ovflw {
+    overflow: visible;
   }
 
 }
