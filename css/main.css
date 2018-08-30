@@ -153,6 +153,10 @@ td, th {
   background-color: #d3d3d3;
 }
 
+.col-width {
+  min-width: 9.5em;
+}
+
 .table-checkmark {
   color: green;
 }
@@ -168,6 +172,14 @@ td, th {
 .skip-links a {
   color: #000;
   background-color: #fff;
+}
+
+@media only screen and (max-width: 10em) {
+
+  .table-ovflw {
+    overflow: visible;
+  }
+
 }
 
 @media only screen and (min-width: 25em) {
@@ -221,10 +233,6 @@ td, th {
 
   .tour-text {
     text-align: center;
-  }
-
-  .table-ovflw {
-    overflow: visible;
   }
 
 }
