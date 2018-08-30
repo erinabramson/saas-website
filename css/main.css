@@ -180,11 +180,13 @@ input {
   }
 
   .price-style {
-    height: 25em;
+    height: 26em;
+    max-width: 325px;
   }
 
   .price-top {
     height: 100px;
+    line-height: 100px;
   }
 
 }
